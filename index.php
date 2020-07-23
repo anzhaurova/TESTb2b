@@ -1,4 +1,5 @@
 <?php
+    define(ROOT, __DIR__); //определяем константу для корневого пути
     $uri = $_SERVER['REQUEST_URI'];
     $parts = explode('/', $uri);
 //    var_dump($parts);die();
@@ -7,9 +8,9 @@
             include 'controllers/news.php';
             break;
         default;
-            echo 'Главная страница';
+            include 'controllers/main.php';
             break;
         case 'about':
-            include 'templates/about.php';
+            include 'controllers/about.php';
             break;
     }
