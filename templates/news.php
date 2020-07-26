@@ -1,12 +1,15 @@
 <?
-    require_once ROOT . '/header.php';
+require_once ROOT . '/header.php';
+$uri = $_SERVER['REQUEST_URI'];
+$parts = explode('/', $uri);
+$newsId = $parts[2];
+//require ROOT . "/controllers/main.php";
 
-    
-    require_once ROOT . '/footer.php';
 ?>
-
-<!-- <html>
+<html>
     <body>
         <h4>Новость номер <?= $newsId?></h4>
     </body>
-</html> -->
+</html>
+<?require_once ROOT . '/footer.php';?>
+
