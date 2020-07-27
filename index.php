@@ -1,7 +1,7 @@
 <?php
     define(ROOT, __DIR__); //определяем константу для корневого пути 
     $uri = $_SERVER['REQUEST_URI'];
-    var_dump($_SERVER);die();
+    // var_dump($_SERVER);die();
     $parts = explode('/', $uri); //разбиваем строку 
 //    var_dump($parts);die();
     switch ($parts[1]) {
