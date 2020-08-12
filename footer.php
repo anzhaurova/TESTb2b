@@ -16,10 +16,11 @@
                 <div class="col-sm">Главная</div>
                 <div class="col-sm">Правила</div>
                 <div class="col-sm">Новости</div>
-                <div class="col-sm">Обраная связь</div>
+                <div class="col-sm">Обратная связь</div>
             </div>
 
         </div>
     </div>
 </div>
 <script src="/assets/bootstrap_3/js/bootstrap.min.js"></script>
+<script scr="/assets/bootsr"></script>
