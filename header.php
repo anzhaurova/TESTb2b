@@ -13,12 +13,20 @@
             </ul>
         </nav>
         <a href="" class="header__contact">Бесплатная горячая линия 8 800 000 0000</a> -->
-
-        <div class="row">
-            <div class="col-sm">Главная</div>
-            <div class="col-sm">Правила</div>
-            <div class="col-sm">Новости</div>
-            <div class="col-sm">Обратная связь</div>
+    <div class="container">
+        <div class="flex-row">
+            <div class="col-lg-3">
+                <a href="#main" class="header__link js-scroll-to">Главная</a>
+            </div>
+            <div class="col-lg-3">
+                <a href="#about" class="header__link js-scroll-to">О нас</a>
+            </div>
+            <div class="col-lg-3">
+                <a href="#news" class="header__link js-scroll-to">Новости</a>
+            </div>
+            <div class="col-lg-3">
+                <a href="#main" class="header__link js-scroll-to">Обратная связь</a>
+            </div>
         </div>
     </div>
 </div>
