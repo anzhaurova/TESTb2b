@@ -3,16 +3,16 @@
     <div class="container">
         <div class="flex-row">
                 <div class="col-lg-3">
-                    <a href="#main" class="header__link js-scroll-to">Главная</a>
+                    <a href="/main/" class="header__link js-scroll-to">Главная</a>
                 </div>
                 <div class="col-lg-3">
                     <a href="#about" class="header__link js-scroll-to">Условия сотрудничества</a>
                 </div>
                 <div class="col-lg-3">
-                    <a href="#news" class="header__link js-scroll-to">Дополнительная информация</a>
+                    <a href="#info" class="header__link js-scroll-to">Дополнительная информация</a>
                 </div>
                 <div class="col-lg-3">
-                    <a href="#main" class="header__link js-scroll-to">Контакты</a>
+                    <a href="/contacts/" class="header__link js-scroll-to">Контакты</a>
                 </div>
             </div>
         </div>
