@@ -7,14 +7,10 @@
 <html>
     <body>
         <h4>Новость номер <?= $newsId?></h4>
+        <h5><?= $arrNews[$newsId]["header"] ?></h5>
+        <div><?= $arrNews[$newsId]["text"] ?></div>
+        <div><?= $arrNews[$newsId]["date"] ?></div>
     </body>
 </html>
 <?require_once ROOT . '/footer.php';?>
-<!--вывести циклом все новости-->
-<?
-    foreach ($variable as $key => $value) {
-       echo "<td>$value</td>";
-    }
-?>
-
 
