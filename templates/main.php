@@ -5,7 +5,6 @@
 
 Последние новости:
 
-
 <?php 
 
 foreach($lastNews as $news) 
@@ -18,7 +17,6 @@ foreach($lastNews as $news)
 }
 
 ?>
-<!-- Подключить футер -->
 <?
     require_once ROOT . '/footer.php';
 ?>

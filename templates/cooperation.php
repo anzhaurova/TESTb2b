@@ -1,5 +1,5 @@
 <?
-    require_once ROOT . '/cooperation.php';
+    require_once ROOT . '/header.php';
 ?>
  <html>
         <body>

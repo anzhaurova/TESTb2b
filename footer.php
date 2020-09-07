@@ -1,22 +1,26 @@
-
+<?php
+    require_once (ROOT . "/controllers/linkWatcher.php");
+?>
+<head>
+    <link rel="stylesheet" href="/assets/bootstrap_3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/assets/bootstrap_3/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
 <div class = "footer">
     <div class="container">
         <div class="flex-row">
-                <div class="col-lg-3">
-                    <a href="/main/" class="header__link js-scroll-to">Главная</a>
-                </div>
-                <div class="col-lg-3">
-                    <a href="#about" class="header__link js-scroll-to">Условия сотрудничества</a>
-                </div>
-                <div class="col-lg-3">
-                    <a href="#info" class="header__link js-scroll-to">Дополнительная информация</a>
-                </div>
-                <div class="col-lg-3">
-                    <a href="/contacts/" class="header__link js-scroll-to">Контакты</a>
-                </div>
+            <div class="col-lg-4">
+                <a href="/cooperation/" class="header__link js-scroll-to <?= substr_count($linkTab, "cooperation") ? "active" : "" ?>">Условия сотрудничества</a>
+            </div>
+            <div class="col-lg-4">
+                <a href="/info/" class="header__link js-scroll-to <?= substr_count($linkTab, "info") ? "active" : "" ?>">Дополнительная информация</a>
+            </div>
+            <div class="col-lg-4">
+                <a href="/contacts/" class="header__link js-scroll-to <?= substr_count($linkTab, "contacts") ? "active" : "" ?>">Контакты</a>
+            </div>
             </div>
         </div>
     </div>
 </div>
-<script src="/assets/bootstrap_3/js/bootstrap.min.js"></script>
-<script scr="/assets/bootsr"></script>
+<!-- <script src="/assets/bootstrap_3/js/bootstrap.min.js"></script>
+<script scr="/assets/bootsr"></script> -->

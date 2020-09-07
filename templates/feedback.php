@@ -24,4 +24,3 @@
 <?
     require_once ROOT . '/footer.php';
 ?>
-<!-- вьюха-->

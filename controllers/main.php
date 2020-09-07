@@ -1,4 +1,5 @@
 <?php
+
 //подготавливаем данные
 //запросы и обработку в БД, валидация запросов и прочее
 $lastNews = [
@@ -16,6 +17,4 @@ $auth = [
     'name' => 'Victoria',
     'email' => 'vi@vi.ru'
 ];
-
-//подключаем шаблон
 require_once ROOT . '/templates/main.php';
