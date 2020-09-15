@@ -22,5 +22,11 @@
         </div>
     </div>
 </div>
+
+<?php 
+if($link) {
+    mysqli_close($link); 
+}
+?>
 <!-- <script src="/assets/bootstrap_3/js/bootstrap.min.js"></script>
 <script scr="/assets/bootsr"></script> -->
