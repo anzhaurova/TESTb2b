@@ -1,9 +1,9 @@
 <!-- Подключить хидер -->
 <?
-    require_once ROOT . '/header.php';
+    require_once ROOT . '/templates/partial/header.php';
 ?>
 
-Последние новости:
+<h4>Последние новости про котов:</h4>
 
 <?php 
 
@@ -18,5 +18,5 @@ foreach($lastNews as $news)
 
 ?>
 <?
-    require_once ROOT . '/footer.php';
+    require_once ROOT . '/templates/partial/footer.php';
 ?>

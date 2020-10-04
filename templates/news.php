@@ -1,5 +1,5 @@
 <?php
-    require_once ROOT . '/header.php';
+    require_once ROOT . '/templates/partial/header.php';
     $uri = $_SERVER['REQUEST_URI'];
     $parts = explode('/', $uri);
     $newsId = $parts[2];
@@ -12,5 +12,5 @@
         <div><?= $arrNews[$newsId]["date"] ?></div>
     </body>
 </html>
-<?require_once ROOT . '/footer.php';?>
+<?require_once ROOT . '/templates/partial/footer.php';?>
 

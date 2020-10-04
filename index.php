@@ -2,7 +2,7 @@
     define(ROOT, __DIR__);//определяем константу для корневого пути 
 
     //подключиться к БД
-    $link = mysqli_connect("localhost", "vasya", "123123", "TESTb2b");
+    $link = mysqli_connect("localhost", "testb2b", "N715joss1010*", "testb2b");
 
     if (!$link) {
         echo "Ошибка: Невозможно установить соединение с MySQL." . PHP_EOL;
@@ -10,7 +10,6 @@
         echo "Текст ошибки error: " . mysqli_connect_error() . PHP_EOL;
         exit;
     }
-
     $uri = $_SERVER['REQUEST_URI'];
     $parts = explode('/', $uri); //разбиваем строку
     switch ($parts[1]) {
@@ -44,8 +43,4 @@
             echo '';
         break;    
     }
-
-    /*http://testb2b.local/news/3*/
-    
-
 ?>
