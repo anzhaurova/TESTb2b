@@ -3,6 +3,7 @@
 
     //подключиться к БД
     $link = mysqli_connect("localhost", "testb2b", "N715joss1010*", "testb2b");
+    $link->set_charset("utf8");
 
     if (!$link) {
         echo "Ошибка: Невозможно установить соединение с MySQL." . PHP_EOL;

@@ -5,6 +5,47 @@
     <link rel="stylesheet" href="/assets/bootstrap_3/css/bootstrap.min.css">
     <link rel="stylesheet" href="/assets/bootstrap_3/css/bootstrap-theme.min.css">
     <link rel="stylesheet" href="/css/styles.css">
+    <?php
+    $pageProperties = [
+        "main" => [
+            "title" => "Главная страница",
+            "keywords" => "keywords для главной",
+            "template" => "templates/main.php",
+        ],
+        "news" => [
+            "title" => "Новости",
+            "keywords" => "keywords для новостей",
+            "template" => "templates/news.php",
+        ],
+        "about" => [
+            "title" => "О нас",
+            "keywords" => "keywords для О нас",
+            "template" => "templates/about.php",
+        ],
+        "feedback" => [
+            "title" => "Обратная связь",
+            "keywords" => "keywords для обратной связи",
+            "template" => "templates/feedback.php",
+        ],
+        "contacts" => [
+            "title" => "Контакты",
+            "keywords" => "keywords для контактов",
+            "template" => "templates/contacts.php",
+        ],
+        "cooperation" => [
+            "title" => "Условия сотрудничества",
+            "keywords" => "keywords для условия сотрудничества",
+            "template" => "templates/cooperation.php",
+        ],
+        "info" => [
+            "title" => "Дополнительная информация",
+            "keywords" => "keywords для дополнительной информации",
+            "template" => "templates/info.php",
+        ],
+    ];
+
+    ?>
+    <title><?php echo $pageProperties[$parts[1]]["title"]; ?></title>
 </head>
 <div class = "header">
     <div class="container">

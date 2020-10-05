@@ -6,14 +6,13 @@
 $query = "SELECT id, header, date, text FROM news ORDER BY id";
 
 
-// var_dump(mysqli_query($link, $query));die();
 $arrNews = [];
 
 if ($result = mysqli_query($link, $query)) {
 
     /* извлечение ассоциативного массива */
     while ($row = mysqli_fetch_assoc($result)) {
-        var_dump($row);
+//        var_dump($row);
         $arrNews[$row["id"]] = $row;
     }
 
